@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-grid {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    height: 80px;
+    background-color: black;
+}
+
+
+.icones-menu {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pesquisa {
+    border: none;
+    width: 300px;
+    height: 28px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt {
+    border: none;
+    width: 372px;
+    height: 25px;
+}
+
+.pesquisa a{
+    height: 100%;
+}
+
+.header-menu {
+    height: 30px;
+    background-color: rgb(2, 1, 15);
+}
+
+.menu {
+    width: 90%;
+    display: flex;
+    justify-content: space-between; 
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.menu a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.banner .banner-background {
+    background-image: url(../imagens/background_banner_xbox.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 80%;
+}
