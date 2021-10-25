@@ -18,8 +18,7 @@
 
 header {
     height: 80px;
-    background-color: black;
-    
+    background-color: black;   
 }
 
 .menu-hamburger {
@@ -54,16 +53,58 @@ header {
 
 .logo a{
     position: center;
-    align-items: center;
-       
-    
+    align-items: center;    
 }
+
 .icones-menu {
     width: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.banner {
+    background-image: url(../imagens/banner-jogos.png);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.posicao-banner {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;    
+}
+
+.texto-banner {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 270px;
+    margin-bottom: 70px;
+}
+
+.texto-banner button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    background: rgb(6, 23, 71);
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: 15px 10px 15px -12px black;
+    transition: 0.2s;
+}
+
+.texto-banner button:hover{
+    background-color: rgb(116, 99, 212);
+    font-weight: bold;
+}
+
+
 
 
 
@@ -77,11 +118,20 @@ header {
         width: 95%;
     }
 
+    .texto-banner {
+        width: 230px;
+    }
+
 @media screen and (max-width:460px) {
     .menu-hamburger {
         width: 50px;
     }
+
     .icones-menu {
-        width: 80px;
+        width: 90px;
+    }
+
+    .texto-banner {
+        width: 220px;
     }
 }
