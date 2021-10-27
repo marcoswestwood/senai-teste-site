@@ -264,7 +264,7 @@ header {
 /* GALERIA */
 
 .galeria {
-    background-color: rgb(255, 244, 242);
+    background-color: rgb(236, 71, 42);
     border: 1px solid blanchedalmond;
 }
 
@@ -285,8 +285,8 @@ header {
 }
 
 .itens-galeria {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border: 10px solid #fff;
     box-shadow: 5px 5px 5px #0009;
     flex-grow: 1;
