@@ -278,7 +278,10 @@ header {
     
 
     .cards-prod-novidade .card {
-        
+        width: 300px;
+        height: 384px;
+        min-width: 300px;
+        min-height: 384px;
         margin: 10px;
     }
 
