@@ -264,8 +264,8 @@ header {
 /* GALERIA */
 
 .galeria {
-    background-color: rgb(236, 71, 42);
-    border: 1px solid blanchedalmond;
+    background-color: rgb(129, 23, 5);
+    border: 10px solid rgb(129, 23, 5);
 }
 
 .cards-galeria {
@@ -277,6 +277,7 @@ header {
 }
 
 .texto-galeria {
+    color: white;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -304,6 +305,93 @@ header {
 }
 
 
+/* RODAPÉ */
+
+.footer {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.logo-rodape {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cadastro-e-redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.receber-ofertas .card {
+    background-color: transparent;
+    align-items: left;
+    border: none;
+    max-width: 300px;
+    max-height: 150px;
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
+
+.receber-ofertas .card h6{
+    color: white;   
+}
+
+.cadastro-ofertas-txt {
+    width: 300px;
+    height: 25px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.cadastro-ofertas-btn button{
+    width: 300px;
+    height: 25px;
+    background-color: rgb(6, 23, 71);;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    font-weight: 300;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.cadastro-ofertas-btn button:hover {
+    background-color: rgb(116, 99, 212);
+}
+
+.redes-sociais .card {
+    background-color: transparent;
+    align-items: center;
+    border: none;
+    width: 300px    ;
+    max-width: 300px;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+.redes-sociais .card h6 {
+    color: white;
+}
+
+.redes-sociais .icones-redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.redes-sociais .icones-redes-sociais a:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
 
 
 
@@ -313,7 +401,7 @@ header {
     .container-grid {
         width: 85%;
     }
-
+}
 
 @media screen and (max-width: 960px) {
     .cards-prod-novidade {
@@ -339,9 +427,17 @@ header {
         min-height: 384px;
         margin: 10px;
     }
-
-
 }    
+
+
+
+@media screen and (max-width:707px) {
+    .cadastro-e-redes {
+        
+        justify-content: space-around;
+        
+    }
+}
 
 
 @media screen and (max-width:460px) {
@@ -364,7 +460,4 @@ header {
     .cards-prod-novidade {
         flex-direction: column;   
     }
-
-
-
 }
