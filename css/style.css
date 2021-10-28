@@ -418,8 +418,6 @@ header {
         width: 230px;
     }
     
-    
-
     .cards-prod-novidade .card {
         width: 300px;
         height: 384px;
@@ -429,13 +427,18 @@ header {
     }
 }    
 
+@media screen and (max-width:754px) {
+     .cards-prod-novidade {
+        justify-content: space-around;
+    }
+}
+
 
 
 @media screen and (max-width:707px) {
     .cadastro-e-redes {
         
         justify-content: space-around;
-        
     }
 }
 
@@ -459,5 +462,15 @@ header {
 
     .cards-prod-novidade {
         flex-direction: column;   
+    }
+}
+
+@media screen and (max-width:360px) {
+    .cards-prod-novidade .card {
+        width: 2700px;
+        height: 384px;
+        min-width: 270px;
+        min-height: 384px;
+        margin: 10px;
     }
 }
