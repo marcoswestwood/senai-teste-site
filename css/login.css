@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*
+body {
+    background-color: rgb(139, 144, 223);
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+/* ESTILO LOGIN */
+
+.form-login {
+    
+    /* position: absolute;
+    top: calc(); */
+
+}
+
+
+.card-login .card {
+    position: absolute;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+    box-shadow: 5px 5px 5px #0009;
+    
+}
+
+.card-login h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.email-login {
+    width: 280px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.senha-login {
+    width: 280px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-login button {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
