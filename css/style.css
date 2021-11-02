@@ -264,8 +264,8 @@ header {
 /* GALERIA */
 
 .galeria {
-    background-color: rgb(129, 23, 5);
-    border: 10px solid rgb(129, 23, 5);
+    background-color: rgb(3, 3, 59);
+    border: 10px solid rgb(3, 3, 50);
 }
 
 .cards-galeria {
@@ -923,6 +923,93 @@ header {
 
 
 
+/* PAGINA MELHORES JOGOS */
+
+.cat-melhoresjogos {
+    background-color: rgb(169, 169, 228);
+    border: 1px solid white;  
+}
+
+.texto-melhoresjogos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.cards-melhoresjogos .card {
+    background-color: white;
+    align-items: center;
+    border-radius: 8px;
+    border: 1 solid;
+    max-width: 250px;
+    max-height: 320px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px #0009;
+}
+
+.cards-melhoresjogos .card h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.cards-melhoresjogos .card .icon {
+    max-width: 200px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+}
+
+.cards-melhoresjogos .card img{
+    width: 100%;
+}
+
+.cards-melhoresjogos .card h3 {
+    margin: 10px 0;
+}
+
+.cards-melhoresjogos .card h5 {
+    font-weight: 100;
+    font-size: 80%;
+    color: rgb(224, 142, 142);
+}
+
+.cards-melhoresjogos .card h4 {
+    font-size: 120%;
+}
+
+.cards-melhoresjogos .card h6 {
+    margin-bottom: 10px;
+    font-size: 80%;
+}
+
+.cards-melhoresjogos .card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    font-weight: 300;
+    border-radius: 8px;
+    background: rgb(37, 218, 20);
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: 15px 10px 15px -12px black;
+    transition: 0.2s;
+}
+
+.cards-melhoresjogos .card button:hover {
+    background-color: rgb(9, 70, 9);
+    font-weight: bold;
+}
+
+.cards-melhoresjogos .card:hover {
+    transform: scale(1.05);
+}
+
+
 
 
 
@@ -982,6 +1069,12 @@ header {
     .cards-oculosvr .card {
         margin: 10px;
     }
+    .cards-melhoresjogos {
+        flex-flow: row wrap;
+    }
+    .cards-melhoresjogos .card {
+        margin: 10px;
+    }
 }
 
 
@@ -1039,6 +1132,13 @@ header {
         min-height: 384px;
         margin: 10px;
     }
+    .cards-melhoresjogos .card {
+        width: 300px;
+        height: 384px;
+        min-width: 300px;
+        min-height: 384px;
+        margin: 10px;
+    }
 }    
 
 @media screen and (max-width:754px) {
@@ -1061,6 +1161,9 @@ header {
         justify-content: space-around;
     }
     .cards-oculosvr {
+        justify-content: space-around;
+    }
+    .cards-melhoresjogos {
         justify-content: space-around;
     }
 }
@@ -1112,6 +1215,9 @@ header {
     .cards-oculosvr {
         flex-direction: column;   
     }
+    .cards-melhoresjogos {
+        flex-direction: column;   
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -1158,6 +1264,13 @@ header {
         margin: 10px;
     }
     .cards-oculosvr .card {
+        width: 2700px;
+        height: 384px;
+        min-width: 270px;
+        min-height: 384px;
+        margin: 10px;
+    }
+    .cards-melhoresjogos .card {
         width: 2700px;
         height: 384px;
         min-width: 270px;
