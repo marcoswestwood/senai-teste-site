@@ -348,7 +348,7 @@ header {
     margin-bottom: 5px;
 }
 
-.cadastro-ofertas-btn button{
+.cadastro-ofertas-btn{
     width: 300px;
     height: 25px;
     background-color: rgb(6, 23, 71);;
@@ -391,6 +391,8 @@ header {
     filter: grayscale(1);
     transform: scale(1.03);
 }
+/* FIM DA PAGINA INDEX */
+
 
 
 
@@ -481,6 +483,11 @@ header {
 .cards-celulares .card:hover {
     transform: scale(1.05);
 }
+/* FIM DA PAGINA CELULARES */
+
+
+
+
 
 
 /* PAGINA COMPUTADORES */
@@ -568,6 +575,9 @@ header {
 .cards-computadores .card:hover {
     transform: scale(1.05);
 }
+/* FIM DA PAGINA COMPUTADORES */
+
+
 
 
 
@@ -656,6 +666,9 @@ header {
 .cards-consoles .card:hover {
     transform: scale(1.05);
 }
+/* FIM DA PAGINA CONSOLES */
+
+
 
 
 
@@ -744,6 +757,9 @@ header {
 .cards-acessorios .card:hover {
     transform: scale(1.05);
 }
+/* FIM DA PAGINA ACESSORIOS */
+
+
 
 
 
@@ -832,6 +848,9 @@ header {
 .cards-pcgamers .card:hover {
     transform: scale(1.05);
 }
+/* FIM DA PAGINA PC GAMERS */
+
+
 
 
 
@@ -920,6 +939,9 @@ header {
 .cards-oculosvr .card:hover {
     transform: scale(1.05);
 }
+/* FIM DA PAGINA OCULOS VR */
+
+
 
 
 
@@ -1008,7 +1030,7 @@ header {
 .cards-melhoresjogos .card:hover {
     transform: scale(1.05);
 }
-
+/* FIM DA PAGINA MELHORES JOGOS */
 
 
 
@@ -1024,6 +1046,8 @@ header {
         width: 85%;
     }
 }
+
+
 
 @media screen and (max-width: 960px) {
     .cards-prod-novidade {
@@ -1076,6 +1100,7 @@ header {
         margin: 10px;
     }
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -1140,6 +1165,7 @@ header {
         margin: 10px;
     }
 }    
+
 
 @media screen and (max-width:754px) {
      .cards-prod-novidade {
@@ -1219,6 +1245,7 @@ header {
         flex-direction: column;   
     }
 }
+
 
 @media screen and (max-width:360px) {
     .cards-prod-novidade .card {
