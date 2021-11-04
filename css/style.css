@@ -57,6 +57,9 @@ header {
     justify-content: space-around;
 }
 
+.menu-ativo {
+    display: flex;
+}
 
 /* LOGO */
 
@@ -91,7 +94,7 @@ header {
     height: 450px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .posicao-banner {
@@ -348,7 +351,7 @@ header {
     margin-bottom: 5px;
 }
 
-.cadastro-ofertas-btn{
+.receber-ofertas .button{
     width: 300px;
     height: 25px;
     background-color: rgb(6, 23, 71);;
@@ -362,9 +365,10 @@ header {
     margin-bottom: 20px;
 }
 
-.cadastro-ofertas-btn button:hover {
+.receber-ofertas .button:hover {
     background-color: rgb(116, 99, 212);
 }
+
 
 .redes-sociais .card {
     background-color: transparent;

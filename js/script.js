@@ -1,8 +1,22 @@
+$( document ).ready(function() {
+
+    $("#barras").click(function() {
+        $("#menu").toggleClass("menu-ativo")
+    })
+
+})
+
+
+
+
+
 let email = document.getElementById("campo-email");
 
 function enviarEmail() {
     let emailDigitado = email.value;
+    console.log(emailDigitado)
 }
+
 
 
 
@@ -38,6 +52,7 @@ function renderizarNovidades() {
             valorPor: "Por: R$ 3.999,00",
             prestacao: "Em até 10x de R$ 399,90"
         }
+        
     ]
     let template = "";
 
@@ -59,61 +74,4 @@ function renderizarNovidades() {
 }
 
 
-// function renderizarGaleria() {
-//     let galeria = document.getElementById("espaco-galeria");
-
-//     let listaGaleria = [
-//         {
-//             abrir: "imagens/galeria/foto1.jpg",
-//             imagem: "imagens/galeria/foto1.jpg"
-//         },
-//         {
-//             abrir: "imagens/galeria/foto2.jpg",
-//             imagem: "imagens/galeria/foto2.jpg"
-//         },
-//         {
-//             abrir: "imagens/galeria/foto3.jpg",
-//             imagem: "imagens/galeria/foto3.jpg"
-//         },
-//         {
-//             abrir: "imagens/galeria/foto4.jpg",
-//             imagem: "imagens/galeria/foto4.jpg"
-//         },
-//         {
-//             abrir: "imagens/galeria/foto5.jpg",
-//             imagem: "imagens/galeria/foto5.jpg"
-//         },
-//         {
-//             abrir: "imagens/galeria/foto6.jpg",
-//             imagem: "imagens/galeria/foto6.jpg"
-//         },
-//         {
-//             abrir: "imagens/galeria/foto7.jpg",
-//             imagem: "imagens/galeria/foto7.jpg"
-//         },
-//         {
-//             abrir: "imagens/galeria/foto8.jpg",
-//             imagem: "imagens/galeria/foto8.jpg"
-//         },
-//         {
-//             abrir: "imagens/galeria/foto9.jpg",
-//             imagem: "imagens/galeria/foto9.jpg"
-//         },
-//         {
-//             abrir: "imagens/galeria/foto10.jpg",
-//             imagem: "imagens/galeria/foto10.jpg"
-//         }
-//     ]
-
-//     let template = "";
-
-//     for (let index = 0; index < listaGaleria.length; index++) {
-//         const espaco = listaGaleria[index];
-
-//         template += `<a href="${galeria.abrir}" class="itens-galeria">
-//                 <img src="${galeria.imagem}" alt="">
-//             </a>`
-//     }
-//     espaco.innerHTML = template;
-    
 
