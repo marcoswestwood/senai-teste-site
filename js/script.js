@@ -77,6 +77,130 @@ function renderizarNovidades() {
 
 
 
+function renderizarCategorias() {
+    let espaco = document.getElementById("espaco-categorias");
+
+    let listaCategorias = [
+        {
+            titulo: "smartphones",
+            icone: "imagens/icone smartphone.png",
+            vinculo: "celulares.html",
+            alt: "smartphones",
+        },
+        {
+            titulo: "notebooks",
+            icone: "imagens/icone notebook.png",
+            vinculo: "computadores.html",
+            alt: "notebooks",
+        },
+        {
+            titulo: "óculos vr",
+            icone: "imagens/icone-oculos-vr.png",
+            vinculo: "oculosvr.html",
+            alt: "óculos realidade virtual",
+        },
+        {
+            titulo: "pc gamers",
+            icone: "imagens/icone-pcgamer.png",
+            vinculo: "pcgamers.html",
+            alt: "pc gamers",
+        },
+        {
+            titulo: "consoles",
+            icone: "imagens/icone-videogame.png",
+            vinculo: "consoles.html",
+            alt: "consoles",
+        },
+        {
+            titulo: "acessórios",
+            icone: "imagens/icone-acessórios.png",
+            vinculo: "acessorios.html",
+            alt: "acessórios",
+        },
+    
+    ]
+
+    let template = "";
+
+    for (let index = 0; index < listaCategorias.length; index++) {
+        const categoria = listaCategorias[index];
+
+        template += `<div class="col">
+            <section class="card">
+                <div class="icone">
+                    <a href=${categoria.vinculo}><img src="${categoria.icone}" alt="${categoria.alt}"></a>
+                </div>
+                <h4>${categoria.titulo}</h4>
+            </section>   
+        </div> `
+    }
+    espaco.innerHTML = template;
+}
+
+
+
+function renderizarGaleria() {
+    let espaco = document.getElementById("espaco-galeria");
+
+    let listaGaleria = [
+        {
+            imagem: "imagens/galeria/foto1.jpg",
+            a: "imagens/galeria/foto1.jpg",
+        },
+        {
+            imagem: "imagens/galeria/foto2.jpg",
+            a: "imagens/galeria/foto2.jpg",
+        },
+        {
+            imagem: "imagens/galeria/foto3.jpg",
+            a: "imagens/galeria/foto3.jpg",
+        },
+        {
+            imagem: "imagens/galeria/foto4.jpg",
+            a: "imagens/galeria/foto4.jpg",
+        },
+        {
+            imagem: "imagens/galeria/foto5.jpg",
+            a: "imagens/galeria/foto5.jpg",
+        },
+        {
+            imagem: "imagens/galeria/foto6.jpg",
+            a: "imagens/galeria/foto6.jpg",
+        },
+        {
+            imagem: "imagens/galeria/foto7.jpg",
+            a: "imagens/galeria/foto7.jpg",
+        },
+        {
+            imagem: "imagens/galeria/foto8.jpg",
+            a: "imagens/galeria/foto8.jpg",
+        },
+        {
+            imagem: "imagens/galeria/foto9.jpg",
+            a: "imagens/galeria/foto9.jpg",
+        },
+        {
+            imagem: "imagens/galeria/foto10.jpg",
+            a: "imagens/galeria/foto10.jpg",
+        }
+    ]
+
+    let template = "";
+
+    for (let index = 0; index < listaGaleria.length; index++) {
+        const galeria = listaGaleria[index];
+
+        template += `<a href=${galeria.a} class="itens-galeria">
+            <img src="${galeria.imagem}" alt="">
+        </a>`
+    }
+    espaco.innerHTML = template;
+}
+
+
+
+
+
 
 
 
@@ -143,6 +267,9 @@ function renderizarAcessorios() {
 
 
 
+
+
+
 // ----- RENDERIZAÇÃO DA PAGINA CELULARES ----- 
 
 function renderizarCelulares() {
@@ -203,6 +330,9 @@ function renderizarCelulares() {
 
 
 
+
+
+
 // ----- RENDERIZAÇÃO DA PAGINA COMPUTADORES ----- 
 
 function renderizarComputadores() {
@@ -257,6 +387,9 @@ function renderizarComputadores() {
     }
     espaco.innerHTML = template;
 }
+
+
+
 
 
 
@@ -323,6 +456,9 @@ function renderizarConsoles() {
 
 
 
+
+
+
 // ----- RENDERIZAÇÃO DA PAGINA MELHORES JOGOS ----- 
 
 function renderizarMelhoresJogos() {
@@ -383,6 +519,10 @@ function renderizarMelhoresJogos() {
 
 
 
+
+
+
+
 // ----- RENDERIZAÇÃO DA PAGINA OCULOS VR ----- 
 
 function renderizarOculosvr() {
@@ -438,6 +578,10 @@ function renderizarOculosvr() {
     }
     espaco.innerHTML = template;
 }
+
+
+
+
 
 
 

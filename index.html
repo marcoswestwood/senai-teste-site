@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.6.0.js"></script>
 </head>
-<body onload="renderizarNovidades()">
+<body onload="renderizarNovidades(), renderizarCategorias(), renderizarGaleria()">
     
     <!-- CABEÇALHO -->
     <header>
@@ -122,9 +122,9 @@
                 <h3>Categorias em destaque</h3>
             </div>
 
-            <div class="row">
+            <div id="espaco-categorias" class="row">
                     
-                    <div class="col">
+                    <!-- <div class="col">
                         <section class="card">
                             <div class="icone">
                                 <a href="celulares.html"><img src="imagens/icone smartphone.png" alt="smartphones"></a>
@@ -172,11 +172,11 @@
                     <div class="col">
                         <section class="card">
                             <div class="icone">
-                                <a href="#"><img src="imagens/icone-veja-mais.png" alt="veja mais"></a>
+                                <a href="acessorios.html"><img src="imagens/icone-acessórios.png" alt="acessórios"></a>
                             </div>
-                            <h4>veja mais</h4>
+                            <h4>Acessórios</h4>
                         </section>   
-                    </div> 
+                    </div>  -->
             </div>
         </div>
     </section>
@@ -187,8 +187,8 @@
             <div class="texto-galeria">
                 <h3>Galeria</h3>
             </div>
-            <div class="cards-galeria container-grid">
-                <a href="imagens/galeria/foto1.jpg" class="itens-galeria">
+            <div id="espaco-galeria" class="cards-galeria container-grid">
+                <!-- <a href="imagens/galeria/foto1.jpg" class="itens-galeria">
                     <img src="imagens/galeria/foto1.jpg" alt="">
                 </a>
                 <a href="imagens/galeria/foto2.jpg" class="itens-galeria">
@@ -217,7 +217,7 @@
                 </a>
                 <a href="imagens/galeria/foto10.jpg" class="itens-galeria">
                     <img src="imagens/galeria/foto10.jpg" alt="">
-                </a>                
+                </a>                 -->
             </div>
         </div>
     </section>
